@@ -1,0 +1,47 @@
+﻿<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+	<link rel="shortcut icon" href="textures/neptune-transparent.png">
+	 <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Trabajo GPC</title>
+<style type="text/css">
+@font-face {
+    font-family: "My Custom Font";
+    src: url(fonts/moonhouse.ttf) format("truetype");
+}
+p.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+</style>
+<style> 
+canvas{width: 100%;height: 100%}
+	body{
+		background-color: #000000 ;
+		margin: 0px;
+		overflow: hidden;
+	}
+	</style>
+</head>
+<body>
+<div style=" padding-top: 0px; height: 80px;">
+	<center><font size=15; color="#00E5E5"><p class="customfont"> Solar System </p></font></center>
+
+        </div>
+	<!--Contenedor del canvas-->
+	<div id='container'></div>
+
+
+	<!--Librerías auxiliares de webgl-->
+
+	
+	<script src="lib/three.js"></script>
+	<script src="lib/OrbitControls.js"></script>
+	<script src="lib/Coordinates.js"></script>
+	<script src="lib/dat.gui.min.js"></script>
+	<script src="lib/stats.min.js"></script>
+	<script src="lib/threex.keyboardstate.js"></script>
+	<!--My script-->
+	<script src="solar-system.js"></script>
+</body>
+</html>
